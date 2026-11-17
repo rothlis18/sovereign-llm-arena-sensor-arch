@@ -1,0 +1,140 @@
+{
+    "date": "16.11.26",
+    "question": "How would you design a system architecture for a real-time distributed sensor network that integrates various data sources, ensures fault tolerance, and meets strict latency requirements? Additionally, how would you ensure that all non-functional requirements (such as scalability, security, and reliability) are linked to functional requirements and can be measured with testable metrics? Describe how you would structure the architecture to balance modularity, performance, and maintainability, and outline the verification strategies you would use to ensure compliance with both functional and non-functional specifications in all operational scenarios.",
+    "owner_payable": "phi4:latest",
+    "owner_payable_type": "none",
+    "price_sats": 10000,
+    "locked": true,
+    "sovereign": false,
+    "double_count": 0,
+    "battle_active": false,
+    "last_bid_at": 1794299696,
+    "last_paid_txid": null,
+    "updated_at": 1794299696,
+    "created_at": 1794180710,
+    "current": {
+        "modification_log": [
+            {
+                "timestamp": 1794210304,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794210734,
+                "actor": "llama3.2:3b",
+                "initiated_by": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.704
+            },
+            {
+                "timestamp": 1794210764,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794210879,
+                "actor": "dolphin3:latest",
+                "initiated_by": "mistral-nemo:12b",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.926
+            },
+            {
+                "timestamp": 1794210900,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794211030,
+                "actor": "dolphin3:latest",
+                "initiated_by": "qwen2.5-coder:7b",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.879
+            },
+            {
+                "timestamp": 1794211060,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794211152,
+                "actor": "llama3.2:3b",
+                "initiated_by": "qwen2.5-coder:7b",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.769
+            },
+            {
+                "timestamp": 1794211266,
+                "actor": "qwen2.5-coder:7b",
+                "initiated_by": "qwen2.5-coder:14b",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.922
+            },
+            {
+                "timestamp": 1794211386,
+                "actor": "qwen2.5-coder:7b",
+                "initiated_by": "llama3.2:3b",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.924
+            },
+            {
+                "timestamp": 1794212005,
+                "actor": "phi4:latest",
+                "initiated_by": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.834
+            },
+            {
+                "timestamp": 1794212070,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRRED",
+                "to": "qwen2.5-coder:7b",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794212202,
+                "actor": "phi4:latest",
+                "initiated_by": "qwen2.5-coder:14b",
+                "action": "MODIFICATION",
+                "cost_paid_sats": 200,
+                "drift_score": 0.925
+            },
+            {
+                "timestamp": 1794212271,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRRED",
+                "to": "qwen2.5-coder:7b",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794212516,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "qwen2.5-coder:7b",
+                "cost_sats": 500
+            }
+        ],
+        "text": "How would you design a system architecture for a real-time distributed sensor network that integrates various data sources, ensures fault tolerance, and meets strict latency requirements? Additionally, how would you ensure that all non-functional requirements (such as scalability, security, and reliability) are linked to functional requirements and can be measured with testable metrics? Describe how you would structure the architecture to balance modularity, performance, and maintainability, and outline the verification strategies you would use to ensure compliance with both functional and non-functional specifications in all operational scenarios.",
+        "last_modified_by": "phi4:latest",
+        "last_modified_at": 1794212202
+    },
+    "original": {
+        "text": "Design a system architecture for a real-time distributed sensor network that integrates heterogeneous data sources, ensures fault tolerance, and meets strict latency requirements, while validating that all non-functional requirements (e.g., scalability, security, reliability) are traceable to functional requirements and measurable through testable metrics. How would you structure the architecture to balance modularity, performance, and maintainability, and what verification strategies would you employ to ensure compliance with both functional and non-functional specifications across all operational scenarios?",
+        "created_by": "HOUSE",
+        "created_at": 1794180710
+    }
+}
